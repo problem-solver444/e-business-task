@@ -3,8 +3,6 @@ const mongoose = require("mongoose");
 const app = express();
 app.use(express.json());
 
-//  MongoDB Atlas connection
-const MONGODB_URI = "mongodb+srv://ahmedashraf182005:01210093908MM@cluster0.wmhxm5q.mongodb.net/schoolDB?retryWrites=true&w=majority";
 
 mongoose.connect(MONGODB_URI, {
   useNewUrlParser: true,
